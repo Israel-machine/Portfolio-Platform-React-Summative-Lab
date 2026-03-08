@@ -1,16 +1,21 @@
-# React + Vite
+#Setup
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+To add new projects to your archive,
+Enter text into the blank input field under "project title" to enter the project's title and enter text into the blank input field under "Project Description" that describes the project. 
 
-Currently, two official plugins are available:
+Once you entered the appropriate title and description, you can then click the "Add" button at the bottom of the form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This will create a card for each project you enter. You will be able to see your submissions in the bottom of the page.
 
-## React Compiler
+#Highlights features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Can take two inputs as text. These are title of the project and description of that the project. These can then be added to storage for future display using the "add" button. 
 
-## Expanding the ESLint configuration
+These titles and descriptions will then be rendered as individual cards in the botton section under "Sample Projects"
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can filter through the list of projects by using the search bar under the "Searching for Something" header. 
+
+This will filter for a name that matches your input and return those items.
+
+#Limitations
+Will display empty entries if you accidentally press "Add" without entering content into the input field. 
